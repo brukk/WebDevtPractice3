@@ -1,40 +1,97 @@
-var shopper={
-    shoe:"nike",
-    height:184,
-    groceryCart:["banana", "orange", "apple","onion"],
-    theShopper:function (){
-               return "the shopper wears " + this.shoe+ " shoe and he is "+this.height+"cms tall";
-    }
-}
-console.log(shopper.theShopper())
-
-//************************************************** */
-
-var bed={
-   confi:true,
-   width:2,
-   color:"red",
-   accessaries:["pillow","sheets","matrice"],
-   myBed:function(){
-       return "is the bed confortable? the answer is " + this.confi+ " and its color is "+this.color+ 
-              " and it has " +this.accessaries;
-   }
+if (5>3){
+    console.log("5 is greater than 3")
 }
 
-console.log(bed.myBed())
 
-// ************************************************************************
-var tv ={
-    weight:5,
-    width:32,
-    highDef:false,
-    color:"black",
-    thisTv:function(){
-        return "this TV is " +this.width+"inch with "+ this.color+" color with "
-                + this.features;
-    },
-    features:["4k","HDMI port", "super slim"]
+var zcat="cat"
+if(zcat.length===3){
+   console.log("is the length")
 }
 
-console.log(tv.thisTv())
+var c="cat"
+var d="dog"
+if(c==d){
+    console.log("the same")
+}else{
+    console.log("not the same")
+}
+
+
+var person={
+    name:"Abebe",
+    age:12,
+}
+
+if(person.age>11){
+    console.log(person.name + " is old enough to go")
+}else{
+    console.log(person.name + " is not allowed")
+}
+
+if((person.name[0]=="A")&&(person.age>11)   ) {
+    console.log(person.name+ " is allowed")
+}else{
+    console.log("get lost")
+}
+
+if(1==="1"){
+    console.log("strict")
+}else if(1=="1"){
+    console.log("loose")
+}else{
+    console.log("not equal")
+}
+
+if((3*4>10)&&(5+10>10)){
+    console.log("yes")
+}
+
+var d="dog"
+if(typeof d=="string"){
+    console.log("correcto")
+}
+
+var t="true"
+if(typeof t==="boolean"){
+    console.log("correct")
+}else{
+    console.log("idiot")
+}
+
+var x
+if (typeof x==="undefined"){
+    console.log("not defined")
+}else{
+    console.log("is defined")
+}
+
+
+if (parseInt("b",10)>12){
+    console.log("s is greater than 12")
+}else {
+    console.log("s is less than 12")
+}
+
+console.log(parseInt("s",10))
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
