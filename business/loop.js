@@ -56,3 +56,13 @@ for(var i=0; i<people.length; i++){
   }
 }
 
+// to check z movie goer is a male or female for an even more personalized message.
+for(var i=0; i<people.length; i++){
+  if((people[i].gender=="male") && (people[i].age >=18)){
+    console.log(people[i].name + " is old enougn but still dont let HIM in")
+  }else if((people[i].gender=="female") && (people[i].age >=18)){
+    console.log(people[i].name + " is old enough so let HER in")
+  }else{
+    console.log(people[i].name + " is not old enough so dont let him in")
+  }
+}
