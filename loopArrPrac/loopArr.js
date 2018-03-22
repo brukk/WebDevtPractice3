@@ -83,14 +83,14 @@ for(var i=0; i<people.length; i++){
 //to log to the console whether or not the light is on at the end.
 //the light is off to start with , i.e when sumT=0 z light is "off"
 
-var toggleA=[2, 5, 435, 4, 3];
+var toggleA=[2, 5, 435, 4, 5];
 var sumT=0
 for(x=0; x<toggleA.length; x++){
     sumT=sumT+toggleA[x];
 }
-if(sumT % 2 == 0){
+if(sumT % 2 === 0){
       console.log("light off")
-   }else if (sumT%2==1){
+   }else if (sumT%2===1){
       console.log("light on")
    }
 
