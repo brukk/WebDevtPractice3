@@ -74,6 +74,17 @@ if (parseInt("b",10)>12){
 
 console.log(parseInt("s",10))
 
+var iter=0
+for(var i=0; i<101; i++){
+    iter+=i;
+ }
+    if (iter%2===0){
+        console.log("even")
+    }else if (iter%2 ==1){
+        console.log("odd")
+    }
+
+
 
 
 
