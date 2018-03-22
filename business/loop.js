@@ -46,4 +46,13 @@ for (var i=0; i<people.length; i++){
   }
 }
 
+//to log a personalized message to the console
+
+for(var i=0; i<people.length; i++){
+  if(people[i].age >= 18){
+    console.log(people[i].name+" is old enough to enter")
+  }else{
+    console.log(people[i].name+ " is not old enough so cant come in")
+  }
+}
 
