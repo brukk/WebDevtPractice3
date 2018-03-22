@@ -46,6 +46,17 @@ for (var i=0; i<people.length; i++){
   }
 }
 
+//another option to do it using .forEach() method
+
+people.forEach((x)=>{
+  if(x.age > 18) {
+  console.log("old enough")
+}else {
+  console.log("not old enough")
+}
+})
+
+
 //to log a personalized message to the console
 
 for(var i=0; i<people.length; i++){
@@ -66,3 +77,20 @@ for(var i=0; i<people.length; i++){
     console.log(people[i].name + " is not old enough so dont let him in")
   }
 }
+
+//*********************************************************************************** 
+
+//to log to the console whether or not the light is on at the end.
+//the light is off to start with , i.e when sumT=0 z light is "off"
+
+var toggleA=[2, 5, 435, 4, 3];
+var sumT=0
+for(x=0; x<toggleA.length; x++){
+    sumT=sumT+toggleA[x];
+}
+if(sumT % 2 == 0){
+      console.log("light off")
+   }else if (sumT%2==1){
+      console.log("light on")
+   }
+
