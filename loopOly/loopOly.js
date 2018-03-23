@@ -53,7 +53,7 @@ var people = [
       occupation: "Entertainer"
     }
   ]
-  
+
 //   silver 1
 for(var i=0; i<people.length;i++){
     console.log(people[i].name)
@@ -76,4 +76,39 @@ for(var i=0; i<people.length;i++){
     occ2.push(people[i].occupation);   
 }
 occ2.splice(0,1)  ;
-console.log(occ2)
+console.log(occ2);
+
+//********************************************
+
+//gold 1
+var output=[];
+for(var i=0; i<4; i++){
+    output.push([]);
+    for(var j=0; j<4; j++){
+        output[i].push(0);
+    }
+}
+console.log(output)
+
+
+//gold 2
+var output=[];
+for (var i=0; i<3; i++){
+    output.push([]);
+    for(var j=0; j<3; j++){
+        output[i].push(i)
+    }
+}
+console.log(output)
+
+
+//gold 3
+var output=[];
+for(i=0; i<3; i++){
+    output.push([]);
+    for(var j=0; j<3; j++){
+        output[i].push(j);
+    }
+}
+console.log(output)
+
