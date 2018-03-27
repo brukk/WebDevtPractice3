@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>travel form</title>
+    <link rel="stylesheet" href="travel.css">
+</head>
+<body>
+  <form>
+        <input id="firstName" class="names" type="text" name="first name" placeholder="your first name">
+        <input id="lastName" class="names" type="text" name="last name" placeholder="your last name">
+        <input id="age" class="ages" type="number" name="age" placeholder="your age">
+
+        <h2>Gender</h2>
+        <label for="male">Male
+           <input id="male" class="gen" type="radio" name="gender" value="male"> 
+        </label>
+        <label for="female"> Female 
+           <input id="female" class="gen" type="radio" name="gender" value="female"> 
+        </label>
+        
+        <h2>Destinations</h2>
+        <select required name="cities" id="city" value="none">
+            <option value="none">None</option>
+            <option value="Washington DC">Washington DC</option>
+            <option value="Denver">Denver</option>
+            <option value="Chicago">Chicago</option>
+            <option value="Los Angeles">Los Angeles</option>
+        </select>
+        
+        <h2>Food preference</h2>
+       <label for= "noP">No preference
+            <input  id="noP"  type="checkbox" name="diets" value="none" checked> 
+        </label>
+        <label for= "vegeterian">Vegiterian
+            <input id="vegeterian" type="checkbox" name="diets" value="vegiterian"> 
+        </label>
+        <label for= "lactos"> Lactos Free
+            <input id="lactos"  type="checkbox" name="diets" value="lactosFree">
+        </label>
+        <label for= "kosher">Kosher
+            <input id="kosher" type="checkbox" name="diets" value="kosher"> 
+        </label>
+       
+        <button id="button" type="button" >submit</button>
+  </form>
+
+
+
+
+
+
+
+
+
+
+   <script src="travel.js"></script> 
+</body>
+</html>

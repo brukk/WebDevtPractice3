@@ -1,0 +1,13 @@
+ .names {
+    width:140px;
+    height:30px;
+    font-size:20px;
+}
+
+.ages{
+    width:140px;
+    height:30px;
+    font-size: 16px;
+    display: block;
+}
+
