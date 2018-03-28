@@ -1,0 +1,81 @@
+* {
+    box-sizing: border-box;
+   margin:o;
+   /* border:1px solid blue; */
+   font-family: fantasy;
+}
+
+body{
+    height:100vh;
+   
+}
+
+h1{ 
+    font-family: cursive;
+    color:red;
+    font-size:60px;
+    text-align: center;
+    background-color: rgb(68, 44, 44);
+}
+
+#wrapper{
+    display: flex;
+    flex-direction:column ;
+    margin: 50px;
+}
+
+.divs{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding-top: 30px;
+}
+
+.images{
+    height:120px;
+    width:20%;
+    border:2px solid red;
+}
+
+h3{
+    width:38%;
+    height:60px;
+    font-size:28px;
+    color:rgb(172, 47, 47);
+    text-align: center;
+    padding-top: 10px;
+}
+
+.inputs{
+    width:30%;
+    height:60px;
+    text-align: center;
+    font-size:28px;
+    padding-top: 10px;
+}
+
+#totalDiv{
+    display:flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+#totalDiv div{
+    border:2px solid green;
+    height:80px;
+    width:300px ;
+    font-size:40px;
+    text-align: center;
+    padding-top: 10px;
+}
+
+p{
+    height:80px;
+    width:280px;
+    font-size:40px;
+    text-align: center;
+    padding-top: 10px;
+}
+
+
+
