@@ -36,7 +36,7 @@ zfunc(b);
 // zfunc(c)
 
 
-//4
+//4 lets find the smallest num
 var myArray =[2,3,1,9,8,100,0,-6,5,4];
 function myFuncti(arr) {
     var smallestNumber = arr[0];
@@ -49,6 +49,17 @@ function myFuncti(arr) {
 }
 console.log(myFuncti(myArray))
 
+//based on Q no 4, lets find the largest num
+arr2=[3,6,22,88,100,29,-2];
+function getLargest(arr){
+    var largest=arr[0];
+    for(var i=0; i<arr.length; i++){
+        if(arr[i]>largest){
+           largest=arr[i];
+        }
+    }return largest
+}
+console.log(getLargest(arr2))
 
 
 
