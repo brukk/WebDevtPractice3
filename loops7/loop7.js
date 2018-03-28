@@ -21,3 +21,18 @@ function myFunc(str, x) {
 //   myFunc("abcdefg", "h");
 
 
+//3
+function zfunc(arr){
+    for(var i=0; i<arr.length; i++){
+        if(arr.indexOf(42)==i){
+            return
+        }
+    }console.log("42 is not found")
+};
+
+var b=[22,32,42,52,62];
+zfunc(b);
+// var c=[20,40,60,80,100];
+// zfunc(c)
+
+
