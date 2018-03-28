@@ -36,3 +36,19 @@ zfunc(b);
 // zfunc(c)
 
 
+//4
+var myArray =[2,3,1,9,8,100,0,-6,5,4];
+function myFuncti(arr) {
+    var smallestNumber = arr[0];
+    for(var i = 0; i < arr.length; i++) {
+        if(arr[i] < smallestNumber) {
+            smallestNumber = arr[i];
+        }
+    }
+    return smallestNumber;
+}
+console.log(myFuncti(myArray))
+
+
+
+
