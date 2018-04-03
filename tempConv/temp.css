@@ -17,11 +17,13 @@ input{
     font-family: cursive;
     color:white;
     margin:10px;
+    text-align: center;
 }
 
 label{
     font-size:60px;
     font-family: fantasy;
     color:white;
+    
 }
 
