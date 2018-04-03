@@ -1,33 +1,33 @@
 var pound=document.getElementById("p");
 var kilogram=document.getElementById("k");
-var gram=document.getElementById("g");
+var ounce=document.getElementById("o");
 
 
 
 function rounding(num){
-    return Math.round(num*1000)/1000;
+    return Math.round(num*100)/100;
 }
 
 function poundFunc(){
     var poundV = parseFloat(pound.value);
     kilogram.value = rounding(poundV*0.45);
-    gram.value = rounding(poundV*455.6);
+    ounce.value = rounding(poundV*16);
 };
 
 function kiloFunc(){
     var kiloV = parseFloat(kilogram.value);
     pound.value = rounding(kiloV*2.2);
-    gram.value = rounding(kiloV*1000);
+    ounce.value = rounding(kiloV*35.274);
 };
 
-function gramFunc(){
-    var gramV = parseFloat(gram.value);
-    pound.value = rounding(gramV*0.0022);
-    kilogram.value = rounding(gramV*0.001);
+function ounceFunc(){
+    var ounceV = parseFloat(ounce.value);
+    pound.value = rounding(ounceV*0.0625);
+    kilogram.value = rounding(ounceV*0.0283);
 };
 
 
 pound.addEventListener("input",poundFunc);
 kilogram.addEventListener("input",kiloFunc);
-gram.addEventListener("input",gramFunc);
+ounce.addEventListener("input",ounceFunc);
 
