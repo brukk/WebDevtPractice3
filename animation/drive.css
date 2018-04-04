@@ -43,11 +43,14 @@ html, body{
       position: absolute;
       top:-40px;
       left:0px;
-      animation-name: drive;
+      /* animation-name: drive;
       animation-duration:3s;
       animation-fill-mode: both;
       animation-delay: 2s; 
       animation-iteration-count: infinite;
+      animation-timing-function: linear; */
+      animation:drive 4s both infinite linear,
+                jump 0.5s 1.2s  ease;
   }
 
   .luigi{
@@ -56,15 +59,24 @@ html, body{
       position: absolute;
       top:20px;
       left: 0;
-      animation-name:drive;
-      animation-duration: 5s;
+      /* animation-name:drive;
+      animation-duration: 4s;
       animation-fill-mode: both;
       animation-delay: 2s;
       animation-iteration-count: infinite;
-      animation-direction: reverse;
+      /* animation-direction: reverse; 
+      animation-timing-function: linear; */
+      animation:drive 3s both infinite linear;
+               
   }
 
   @keyframes drive{
       from{transform: translateX(-300px)}
-      to{transform: translateX(1700px)}
+      to{transform: translateX(1400px)}
+  }
+
+  @keyframes jump{
+      0%{top: -40px}
+      50%{top: -100px}
+      100%{top:-40px}
   }
