@@ -1,0 +1,140 @@
+*{
+    box-sizing: border-box;
+   margin: 0;
+   padding: 0;
+   
+}
+
+#menu, #social {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background:rgb(87, 84, 84);
+}
+
+li{
+    list-style-type:none;
+    width:100%;
+}
+
+li a{
+    color:white;
+    display: block;
+    text-align: center;
+    text-decoration: none;
+    padding: 1px;
+}
+
+
+li :hover{
+    background: rgb(184, 171, 171);
+}
+
+a.fb{
+    background:url(fb.png) no-repeat center;
+    background-size: 5%;
+}
+
+a.tw{
+    background:url(tw.png) no-repeat center;
+    background-size: 5%;
+}
+
+#social a{
+    text-indent: -100000%;
+}
+
+.lay{
+    margin:20px 20px 0 20px ;
+}
+
+.lay span{
+    background: grey;
+    color:white;
+    margin-right: 10px;
+}
+.stack,.grid{
+    text-decoration: none;
+    background: rgb(196, 196, 202)
+}
+
+
+article{
+    margin:20px;
+    background: rgb(245, 242, 242);
+}
+h2{
+    text-align: center;
+    padding-top: 10px;
+}
+
+p{
+    padding:0 10px ;
+    text-align: justify;
+}
+
+@media screen and (min-width:768px){
+    
+    .top{
+        display: flex;
+    }
+    
+    #menu {
+        display: flex;
+        flex-direction: row;
+        flex-grow: 1;
+    }
+
+    #social{
+        display: flex;
+        flex-direction: row;
+        justify-content: flex-end;
+        
+    }
+
+    #menu li{
+        width:20%;
+    }
+     
+    #social li{
+        width:100%;
+    }
+
+    #social li a{
+        width: 100%; 
+    }
+
+    #menu li a :hover{
+        background: rgb(184, 171, 171);
+    }
+    
+
+    a.fb{
+        background:url(fb.png) no-repeat center;
+        background-size: 50%;
+    }
+    
+    a.tw{
+        background:url(tw.png) no-repeat center;
+        background-size: 50%;
+    }
+
+    #blocks{
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: space-between;
+    }
+
+    article{
+        flex:1 1 28%;
+        margin:20px;
+        transition: flex-basis 0.3s linear;
+    }
+
+    article.stack{
+        flex: 0 1 100%;
+    }
+
+}
+
