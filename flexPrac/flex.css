@@ -125,7 +125,7 @@ p{
     article{
         flex:1 1 28%;
         margin:20px;
-        transition: flex-basis 0.3s linear;
+        transition: flex-basis 0.2s linear;
     }
 
     article.stack{

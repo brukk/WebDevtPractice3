@@ -1,0 +1,71 @@
+*{
+   box-sizing: border-box;
+   margin:0;
+}
+
+.wrapper{
+    width:80%;
+    height:60vh;
+    margin: 6% 0% 10% 10%;
+}
+
+.bigBoxes{
+    height:50%;
+    position: relative;
+}
+
+.boxes{
+   border:2px solid white;
+}
+
+.red{
+    position: absolute;
+    background: red;
+    height:100%;
+    width:50%;
+}
+.green{
+    position: absolute;
+    background: green;
+    height:100%;
+    width:50%;
+    right:0;
+}
+
+.blue{
+    position: absolute;
+    background: blue;
+    height:100%;
+    width:33.33%;
+}
+
+.yellow{
+    position: absolute;
+    background: rgb(204, 204, 19);
+    height:100%;
+    width:33.33%;
+    left:33.33%;
+}
+
+.skyBlue{
+    position: absolute;
+    background: skyblue;
+    height:100%;
+    width:33.33%;
+    right:0;
+}
+#link{
+    width:100%;
+    position:relative;
+    background: #bbb;
+    height:40px;
+}
+
+a{
+    height:100%;
+    text-decoration: none;
+    cursor: pointer;
+    color:rgb(61, 8, 8);
+    margin:20px;
+    position: sticky;
+}
