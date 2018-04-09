@@ -14,6 +14,10 @@ $(document).ready(function(){
         ,"fast")
     });
 
+    $("h2").on("mouseenter", function(){
+        console.log($("#menu .a").attr("href"));
+    })
+
 
 
 })
