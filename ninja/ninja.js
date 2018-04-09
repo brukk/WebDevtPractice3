@@ -26,6 +26,10 @@ $(document).ready(function(){
 
     $("h2").on("click", function(){
         $("#banner .one, .two").addClass("cl1");
+    });
+
+    $("h2").on("click", function(){
+        $("#banner .one ").removeClass("cl1");
     })
 
 
