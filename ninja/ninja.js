@@ -24,21 +24,31 @@ $(document).ready(function(){
     //     })
     // })
 
-    $("h2").on("click", function(){
-        $("#banner .one, .two").addClass("cl1");
-    });
+    // $("h2").on("click", function(){
+    //     $("#banner .one, .two").addClass("cl1");
+    // });
 
-    $("h2").on("click", function(){
-        $("#banner .one ").removeClass("cl1");
-    });
+    // $("h2").on("click", function(){
+    //     $("#banner .one ").removeClass("cl1");
+    // });
 
     // $("h2").on("click", function(){
     //   console.log("The background color is " + $("#banner .two").css("background-color"));
     // })
 
-    $("h2").on("click", function(x){
-       $("#banner .two").css("background-color", "blue");
-      })
+    // $("h2").on("click", function(){
+    //    $("#banner .two").css("background-color", "blue");
+    //   });
+
+    // $("h2").on("click", function(){
+    //   console.log("Document width is " + $(document).width() + " px");
+    //     console.log ( ("window width is " + $(window).width()) + " px");
+    // });
+
+    $("h2").on("click", function(){
+        $("#banner").height(300);
+    })
+
 
 
 })
