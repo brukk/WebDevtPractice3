@@ -14,5 +14,11 @@ $(document).ready(function(){
       });
     });
 
+    $("button").on("click", function(){
+      $("p").hide(800,"swing");
+    })
+
+    
+
 
 });

@@ -45,10 +45,9 @@ $(document).ready(function(){
     //     console.log ( ("window width is " + $(window).width()) + " px");
     // });
 
-    $("h2").on("click", function(){
-        $("#banner").height(300);
-    })
-
-
+   $("h2").on("click", function(){
+        $("#banner").height(340);
+    });
 
 })
+
