@@ -53,3 +53,7 @@ h1{
     margin-left: -26px;
     z-index: 100;
 }
+
+.slider-inner .active{
+    z-index:150;
+}
