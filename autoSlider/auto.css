@@ -1,0 +1,23 @@
+body{
+    padding:20px;
+}
+
+.slides{
+    position: relative;
+    width:300px;
+    height:400px;
+    padding: 20px;
+}
+
+.slides img{
+    position: absolute;
+    top:0;
+    left:0;
+    z-index:-2;
+    height:400px;
+    width:300px;
+}
+
+.slides .top{
+    z-index: -1;
+}
