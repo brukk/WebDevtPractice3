@@ -16,7 +16,7 @@ $(document).ready(function(){
         }
     }
 
-    setInterval(change,1400);
-
+    setInterval(change,1000);
+    
 
 });
